@@ -1,0 +1,68 @@
+body {
+    background: url('./img/Sunrises.jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* Add this */
+    min-height: 100vh;             /* Add this */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+
+  
+  
+  .FormMain {
+    border-radius: 15px; 
+    border: 2px solid white;  
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 20px; 
+    text-align: center;
+    backdrop-filter: blur(10px); 
+    width: 450px; 
+    margin: auto; 
+  }
+
+  .weather-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e68900;
+  }
+  
+ 
+ 
